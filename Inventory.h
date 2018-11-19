@@ -1,6 +1,7 @@
 #ifndef INVENTORY_H_
 #define INVENTORY_H_
 
+#include <iostream>
 #include <string>
 using namespace std;
 #include <vector>
@@ -11,7 +12,7 @@ using std::vector;
 class Inventory
 {
 private:
-	vector <Item> inventory;
+    std::vector <Item> inventory;
 
 public:
 	Inventory();
